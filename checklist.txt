@@ -1,0 +1,89 @@
+TAG CHECKLIST - Boom Coffee Roasters
+Student: Imran Laptop Topi
+
+Global Elements:
+- Doctype: All pages, line 1
+- lang: All pages, line 2
+- charset: All pages, line 5
+- viewport: All pages, line 6
+- meta description: All pages, line 7
+- meta author: All pages, line 8
+- unique title: All pages, line 9
+- h1: All pages, line 13
+- header: All pages, line 12
+- nav: All pages, line 14
+- main: All pages, line 22
+- footer: All pages, line 60+
+
+Semantic & Structure:
+- section: index.html (line 23), menu.html (line 22), about.html (line 22)
+- article: index.html (line 24)
+- aside: about.html (line 35)
+- figure: index.html (line 34)
+- figcaption: index.html (line 37)
+
+Tables:
+- table: menu.html (line 30)
+- caption: menu.html (line 31)
+- thead: menu.html (line 32)
+- tbody: menu.html (line 37)
+- th (scope): menu.html (line 33-35)
+
+Lists:
+- nested list: menu.html (line 48-52)
+- ordered list (attr): menu.html (line 47)
+- definition list: menu.html (line 56-62)
+
+Links:
+- external (target/rel): about.html (line 78)
+- mailto: about.html (line 79)
+- tel: about.html (line 79)
+- internal ID link 1: about.html (line 31)
+- internal ID link 2: about.html (line 78)
+
+Images:
+- 3 images with alt: index.html (line 36), etc. (to be added by student)
+
+Text Formatting:
+- strong: index.html (line 25)
+- em: index.html (line 25)
+- b: index.html (line 25)
+- i: index.html (line 26)
+- mark: index.html (line 39)
+- small: index.html (line 39)
+- sub: menu.html (line 24)
+- sup: menu.html (line 24)
+- abbr (title): about.html (line 23)
+- blockquote: about.html (line 27)
+- inline q: about.html (line 31)
+- cite: about.html (line 28)
+- code: colophon.html (line 21)
+- pre: colophon.html (line 25)
+- kbd: colophon.html (line 31)
+- samp: colophon.html (line 32)
+- hr: colophon.html (line 34)
+- br: colophon.html (line 37)
+- 4 entities: colophon.html (line 35)
+
+Div and Span:
+- div: (Used sparingly if needed, will be added by student with comments)
+- span: (Used sparingly if needed, will be added by student with comments)
+
+Forms:
+- form (method/action): about.html (line 44)
+- fieldset: about.html (line 45)
+- legend: about.html (line 46)
+- labels (id): about.html (line 48+)
+- input text: about.html (line 49)
+- input email: about.html (line 52)
+- input tel: about.html (line 55)
+- input number: about.html (line 58)
+- input date: about.html (line 61)
+- radio group: about.html (line 64-68)
+- checkbox: about.html (line 70)
+- select: about.html (line 73)
+- textarea: about.html (line 77)
+- required: about.html (line 49)
+- placeholder: about.html (line 49)
+- submit button: about.html (line 80)
+- reset button: about.html (line 81)
