@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about our roasting process and contact us.">
+    <meta name="author" content="Imran Laptop Topi">
+    <title>About Us | Master Coffee</title>
+</head>
+<body>
+    <header>
+        <h1>Master Coffee</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="colophon.html">Colophon</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="story">
+            <h2>Our Story</h2>
+            <figure>
+                <img src="images/exterior.jpg" alt="The exterior of Master Coffee Astana" width="600">
+                <figcaption>Our stunning exterior at MEGA Silk Way, Astana.</figcaption>
+            </figure>
+            <p>Master Coffee was born from a desire to disrupt the mediocre coffee culture in the city. We wanted a place where the <abbr title="Specialty Coffee Association">SCA</abbr> standards were not just guidelines, but the law. Our roastery is a laboratory of flavor.</p>
+
+            <blockquote>
+                "Coffee is the fuel of the creative mind, and at Master Coffee, we refine that fuel to perfection."
+                <cite>— Marcus Master, Founder</cite>
+            </blockquote>
+
+            <p>As <q>the most passionate roasters in Astana</q>, we travel every year to visit our partners in Ethiopia and Colombia. You can jump to our <a href="#contact-form">Contact Section</a> to book a tasting session.</p>
+        </section>
+
+        <aside>
+            <h3>Did you know?</h3>
+            <p>The coffee bean is actually a seed of a fruit called a coffee cherry.</p>
+        </aside>
+
+        <section id="contact-form">
+            <h2>Book a Tasting</h2>
+            <!-- I've used a fieldset to group the form elements logically for the user -->
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Customer Information</legend>
+
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe"><br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com"><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+7..."><br><br>
+
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date"><br><br>
+
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" min="1" max="10"><br><br>
+
+                    <p>Preferred Roast:</p>
+                    <input type="radio" id="light" name="roast" value="light">
+                    <label for="light">Light</label>
+                    <input type="radio" id="medium" name="roast" value="medium">
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="dark" name="roast" value="dark">
+                    <label for="dark">Dark</label><br><br>
+
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to our roast alerts?</label><br><br>
+
+                    <label for="pref">Coffee Preference:</label>
+                    <select id="pref" name="pref">
+                        <option value="espresso">Espresso</option>
+                        <option value="pour-over">Pour-over</option>
+                        <option value="cold-brew">Cold Brew</option>
+                    </select><br><br>
+
+                    <label for="msg">Special Requests:</label><br>
+                    <textarea id="msg" name="msg" rows="4" cols="30" placeholder="Any allergies?"></textarea><br><br>
+
+                    <input type="submit" value="Submit Booking">
+                    <input type="reset" value="Clear Form">
+                </fieldset>
+                <p><em>Note: This form is for demonstration purposes; no server is currently handling these requests.</em></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Visit us: <a href="https://maps.google.com" target="_blank" rel="noopener">Find us on Maps</a></p>
+        <p>Contact: <a href="mailto:hello@mastercoffee.link">Email Us</a> | <a href="tel:+77781613033">Call Us</a></p>
+        <p>&copy; 2026 Master Coffee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
